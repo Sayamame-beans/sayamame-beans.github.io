@@ -2,7 +2,7 @@
 
 ---
 
-# 自己紹介 プロフィール
+# プロフィール
 ## どういうことをやってる人?
 趣味で開発とかやってる人です。  
 QiitaにUdonGraphの入門記事を書いたり、BoothでUdonギミックやエディタ拡張、OSCツールの無料配布をしたりしています。  
@@ -12,10 +12,10 @@ QiitaにUdonGraphの入門記事を書いたり、BoothでUdonギミックやエ
 Twiter: [@Sayabeans_0011](https://twitter.com/Sayabeans_0011) (favが多いです)  
 Misskey: [@Sayabeans@misskey.niri.la](https://misskey.niri.la/@Sayabeans)  
 Misskey(予備): [@Sayabeans_sub@mi.yude.moe](https://mi.yude.moe/@Sayabeans_sub)  
-GitHub: https://github.com/Sayamame-beans  
-Booth: https://sayamame-beans.booth.pm/  
-Qiita: https://qiita.com/Sayamame  
-Zenn: https://zenn.dev/sayamame  
+GitHub: [https://github.com/Sayamame-beans](https://github.com/Sayamame-beans)  
+Booth: [https://sayamame-beans.booth.pm/](https://sayamame-beans.booth.pm/)  
+Qiita: [https://qiita.com/Sayamame](https://qiita.com/Sayamame)  
+Zenn: [https://zenn.dev/sayamame](https://zenn.dev/sayamame)  
 VRChat: [Sayamame](https://vrchat.com/home/user/usr_3010580f-c382-4391-b705-641c5c6c1416) (未知の方のフレンド申請は許可しません)  
 
 ## 個人情報について
