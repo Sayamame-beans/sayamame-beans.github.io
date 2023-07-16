@@ -11,8 +11,8 @@ UdonGraphの入門記事などを掲載しています！
 [Udon関連の私的メモ](https://zenn.dev/sayamame/scraps/90f95397828250)を掲載しています。あまり活動していません。  
 
 ## Misskey
-KineL式ビデオプレイヤーの製作者である[りら](https://misskey.niri.la/@ni_rilana)さんが運営しているVRChatter向けサーバー「[にりらみすきー部](https://misskey.niri.la/)」にて、副管理人とモデレーターを担当しています。  
-VRChatter向けと題してはいますが、VRChat以外の話題も歓迎されています！
+KineL式ビデオプレイヤーの製作者である[りら](https://misskey.niri.la/@ni_rilana)さんが運営している、主にVRChatter向けなサーバー「[にりらみすきー部](https://misskey.niri.la/)」にて、副管理人とモデレーターを担当しています。  
+もちろん、VRChat以外の話題も歓迎されています！
 
 ## Booth
 現時点(2023/05/09)で販売している商品について、[以前Misskeyで投稿した簡易説明](https://misskey.niri.la/notes/9e2jdr64qs)を引用します。
