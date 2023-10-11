@@ -13,6 +13,7 @@ Twiter: [@Sayabeans_0011](https://twitter.com/Sayabeans_0011) (favが多いで�
 Misskey: [@Sayabeans@misskey.niri.la](https://misskey.niri.la/@Sayabeans)  
 Misskey(予備): [@Sayabeans_sub@mi.yude.moe](https://mi.yude.moe/@Sayabeans_sub)  
 Misskey(予備2): [@Sayabeans@virtualkemomimi.net](https://virtualkemomimi.net/@Sayabeans)  
+Misskey(dev): [@Sayabeans@mi.7mi.site](https://mi.7mi.site/@Sayabeans)  
 GitHub: [https://github.com/Sayamame-beans](https://github.com/Sayamame-beans)  
 Booth: [https://sayamame-beans.booth.pm/](https://sayamame-beans.booth.pm/)  
 Qiita: [https://qiita.com/Sayamame](https://qiita.com/Sayamame)  
