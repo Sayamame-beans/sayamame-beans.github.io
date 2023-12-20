@@ -5,7 +5,8 @@
 # 活動内容について
 ## Qiita
 UdonGraphの入門記事などを掲載しています！  
-現在(2023/05/09)は[UdonGraphの基礎に関連するもの](https://qiita.com/Sayamame/items/c36a1a87d4189d51099c)、[Udon自体についてのもの](https://qiita.com/Sayamame/items/69ba9e25390f8068d5a6)、[プレイヤー関連のUdonGraphノードの抜粋・説明](https://qiita.com/Sayamame/items/10ea6dc48ebb6d3e8655)の記事があります。  
+現在は[UdonGraphの基礎に関連するもの](https://qiita.com/Sayamame/items/c36a1a87d4189d51099c)、[Udon自体についてのもの](https://qiita.com/Sayamame/items/69ba9e25390f8068d5a6)、[プレイヤー関連のUdonGraphノードの抜粋・説明](https://qiita.com/Sayamame/items/10ea6dc48ebb6d3e8655)の記事があります。  
+最近は更新出来ていません…
 
 ## Zenn
 [Udon関連の私的メモ](https://zenn.dev/sayamame/scraps/90f95397828250)を掲載しています。あまり活動していません。  
@@ -13,6 +14,80 @@ UdonGraphの入門記事などを掲載しています！
 ## Misskey
 KineL式ビデオプレイヤーの製作者である[りら](https://misskey.niri.la/@ni_rilana)さんが運営している、主にVRChatter向けなサーバー「[にりらみすきー部](https://misskey.niri.la/)」にて、副管理人とモデレーターを担当しています。  
 もちろん、VRChat以外の話題も歓迎されています！
+
+## GitHub
+<details><summary>GitHub上での活動/リポジトリ</summary>
+
+---
+### [KiseteNe for MA](https://github.com/Sayamame-beans/KiseteNe-for-MA)
+---
+着せ替え支援ツール「キセテネ」をprefab状態の衣装にも利用可能なように改変したものです。  
+Modular Avatar等との併用が前提。[Booth](#キセテネ-for-ma無料)と[VPM](https://sayabeans.github.io/vpm/)で配布中。
+
+---
+### [Avatar Optimizer](https://github.com/anatawa12/AvatarOptimizer)
+---
+VRChat向けの非破壊式アバター最適化ツールです。  
+anatawa12さんのリポジトリで、私はCollaboratorです。  
+主にドキュメントの調整、Localizationの調整、PRのレビューを行っています。
+
+---
+### [VRCPhysBone-Relocator](https://github.com/Sayamame-beans/VRCPhysBone-Relocator)
+---
+PhysBoneの"Root Transform"設定を確認して、そのGameObjectの位置にPBコンポーネントを移動させるUnityエディタ拡張です。  
+他の移動操作も可能にする更新を予定していますが、まだ手を付けられていません。  
+[Booth](#vrcphysbone-relocator無料--free)にも公開しています。
+
+---
+### [VRC_AFK_AutoMuter](https://github.com/Sayamame-beans/VRC_AFK_AutoMuter)
+---
+OSCを使用して、VRChatでAFKしている時に自動的にミュートするPython製のソフトです。  
+OSCQueryには非対応です。(実行時にポートを変更することは出来ます)  
+[Booth](#vrchatafk時に自動でミュートするoscツール)にも公開しています。
+
+---
+### [QuoteBot](https://github.com/kobi32768/quotebot)
+---
+Discordのメッセージリンクが貼られた際に、その内容を送信するKotlin製のDiscord Botです。  
+kobi32768さんのリポジトリで、私はCollaboratorです。
+
+---
+### [VRCLogDataCollector](https://github.com/Sayamame-beans/VRCLogDataCollector)
+---
+とあるCannyの調査のために作った、VRChatのログファイルからインスタンスjoinに掛かっている時間を抽出するPython製のソフトです。  
+非常に雑な作りで、並列処理もしていないので動作は遅いのですが、目的は達成出来ています。
+
+---
+### [Discord to Misskey](https://github.com/Sayamame-beans/Discord-to-Misskey)
+---
+Discordに流れてきたメッセージをMisskeyに転送するためのPython製のDiscord Bot等です。  
+WIPで、Misskeyへの送信処理は出来ていて、Discord Bot部分が未完成だったはず?
+
+---
+### VRCInfo-DB(仮名)
+---
+VRChat関連のバグ情報や対処法等を集めるDB/Webサイト。  
+準備中なのでリポジトリは非公開。  
+anatawa12さんと共同開発予定?
+
+---
+### その他
+---
+- [Modular Avatar](https://github.com/bdunderscore/modular-avatar)  
+issue情報を整理して[提供](https://misskey.niri.la/notes/9nh58d2xgt)。  
+ドキュメント調整のPRを用意中です。(もう少し時間が掛かりそう)
+
+- [MisskeyEmojiBot](https://github.com/niwaniwa/MisskeyEmojiBot)  
+Misskeyの絵文字登録と承認を簡略化するためのGo製のDiscord Botです。  
+りらさんのリポジトリですが、本人が最近リソース不足になっているので、そのうち自分で書いたissueを消化しようと思っています。
+
+- [misskey.niri.la](https://github.com/niri-la/misskey.niri.la)  
+にりらみすきー部のソースコードのリポジトリ。  
+[本家Misskey](https://github.com/misskey-dev/misskey)と異なる部分が少しあります。  
+主にanatawa12さんがPRを担当していて、私はレビューとissue整理等をやっています。
+
+---
+</details>
 
 ## Booth
 現時点(2023/05/09)で販売している商品について、[以前Misskeyで投稿した簡易説明](https://misskey.niri.la/notes/9e2jdr64qs)を引用します。
@@ -95,4 +170,20 @@ VRM Converter for VRChatでVRoidから変換したアバターなどでよく見
 こちらもソースコードを公開しています。  
 
 ---
+### [キセテネ for MA【無料】](https://sayamame-beans.booth.pm/items/5057270)
+---
+
+情報更新WIP
+
+---
+
 </details>
+
+## 非公開の開発物
+---
+### Server Controller
+---
+Minecraftサーバーの起動管理、ホワイトリスト登録等を行うためのPython製のDiscord Botです。  
+コマンドを叩くとwolやTCP通信を使用して別PCのMinecraftサーバーを(電源ごと)起動したりします。  
+雑に作っちゃったのでソースが公開出来る状態じゃありません。  
+公開していないのを良いことに、wolで他のPCも起動出来るようにしています。(管理者限定)
