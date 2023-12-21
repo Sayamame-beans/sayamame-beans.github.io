@@ -216,7 +216,7 @@ VRM Converter for VRChatでVRoidから変換したアバターなどでよく見
 
 </details>
 
-## 非公開の開発物
+## その他
 ### Server Controller
 Minecraftサーバーの起動管理、ホワイトリスト登録等を行うためのPython製のDiscord Botです。  
 コマンドを叩くとwolやTCP通信を使用して別PCのMinecraftサーバーを(電源ごと)起動したりします。  
