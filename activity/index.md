@@ -20,7 +20,7 @@ KineL式ビデオプレイヤーの製作者である[りら](https://misskey.ni
 
 ### [KiseteNe for MA](https://github.com/Sayamame-beans/KiseteNe-for-MA)
 着せ替え支援ツール「キセテネ」をprefab状態の衣装にも利用可能なように改変したものです。  
-Modular Avatar等との併用が前提。[Booth](#キセテネ-for-ma無料)と[VPM](https://sayabeans.github.io/vpm/)で配布中。
+Modular Avatar等との併用が前提。[Booth](https://sayamame-beans.booth.pm/items/5057270)と[VPM](https://sayabeans.github.io/vpm/)で配布中。
 
 ---
 ### [Avatar Optimizer](https://github.com/anatawa12/AvatarOptimizer)
@@ -32,13 +32,13 @@ anatawa12さんのリポジトリで、私はCollaboratorです。
 ### [VRCPhysBone-Relocator](https://github.com/Sayamame-beans/VRCPhysBone-Relocator)
 PhysBoneの"Root Transform"設定を確認して、そのGameObjectの位置にPBコンポーネントを移動させるUnityエディタ拡張です。  
 他の移動操作も可能にする更新を予定していますが、まだ手を付けられていません。  
-[Booth](#vrcphysbone-relocator無料--free)にも公開しています。
+[Booth](https://sayamame-beans.booth.pm/items/3872837)にも公開しています。
 
 ---
 ### [VRC_AFK_AutoMuter](https://github.com/Sayamame-beans/VRC_AFK_AutoMuter)
 OSCを使用して、VRChatでAFKしている時に自動的にミュートするPython製のソフトです。  
 OSCQueryには非対応です。(実行時にポートを変更することは出来ます)  
-[Booth](#vrchatafk時に自動でミュートするoscツール)にも公開しています。
+[Booth](https://sayamame-beans.booth.pm/items/3696828)にも公開しています。
 
 ---
 ### [QuoteBot](https://github.com/kobi32768/quotebot)
@@ -80,16 +80,23 @@ Misskeyの絵文字登録と承認を簡略化するためのGo製のDiscord Bot
 </details>
 
 ## Booth
-現時点(2023/05/09)で販売している商品について、[以前Misskeyで投稿した簡易説明](https://misskey.niri.la/notes/9e2jdr64qs)を引用します。
-<details><summary>内容</summary>
+<details><summary>販売商品の説明</summary>
 
-私が[Booth](https://sayamame-beans.booth.pm/)で出している商品達をご紹介！(今のところ全て無料！)  
+### [キセテネ for MA【無料】](https://sayamame-beans.booth.pm/items/5057270)
+Prefabの衣装も調整出来るよう[キセテネ](https://shivi.booth.pm/items/2332420)を改変したものです。  
+(キセテネはMIT Licenseの下で改変/再配布が認められています)  
+※Modular Avatar等と併用する前提で、着せる機能はありません
+
+VPMに対応しており、VCCに追加可能です。  
+付属のunitypackageは[VPAI](https://github.com/anatawa12/VPMPackageAutoInstaller)を利用して作成したものです。
+
+ソースコードを[公開](https://github.com/Sayamame-beans/KiseteNe-for-MA)しています。
 
 ---
-### 【無料】アニメーション同期システム【UdonGraph】
-UdonGraph製、アニメーションを自動で同期するギミック！  
-付属のprefabをHierarchyに置いて、同期したいAnimatorをセットするだけでOK！  
-フレンドが、SDK2の時は公式のComponentで簡単に同期出来たのに、SDK3だと出来ない……と言っていたので、作っちゃいました！  
+### [【無料】アニメーション同期システム【UdonGraph】](https://sayamame-beans.booth.pm/items/3645740)
+UdonGraph製のアニメーションを自動で同期するギミックです。  
+付属のprefabをHierarchyに置いて、同期したいAnimatorをセットするだけで利用出来ます。  
+フレンドが、SDK2の時は公式のComponentで簡単に同期出来たのに、SDK3だと出来ない……と言っていたので作りました。  
 
 以下の機能を備えています。
 - 自動同期の周期を変更可能
@@ -102,60 +109,84 @@ UdonGraph製、アニメーションを自動で同期するギミック！
 - Full版  
 各Animatorの全レイヤーについて、パラメーター、再生中のステート、時間が同期可能(各ステートにMultiplier Parameterを設定することで、速度も同期可能)  
 
-こちら、[黄金楽園](https://vrchat.com/home/world/wrld_2ebe7a5f-a0b0-4459-9452-1583480d9b43)や[ぽこピーランド](https://vrchat.com/home/world/wrld_6f55a286-b851-4d3e-8933-e7a31138edd7)(?!)などでご利用いただいているようです！(ありがとうございます！)  
+こちら、[黄金楽園](https://vrchat.com/home/world/wrld_2ebe7a5f-a0b0-4459-9452-1583480d9b43)や[ぽこピーランド](https://vrchat.com/home/world/wrld_6f55a286-b851-4d3e-8933-e7a31138edd7)(?!)などでご利用いただいているようです。(ありがとうございます！)
 
 ---
-### 【無料】アナログ時計【Udon配布】
-UdonGraph製の時計！  
+### [【無料】動画プレイヤー連携 BGM自動停止ギミック【UdonSharp】](https://sayamame-beans.booth.pm/items/5037614)
+動画プレイヤーの再生状態に応じて、ワールドBGMのオンオフを自動で切り替えるためのUdonSharp製ギミックです。  
+現在はGameObjectのアクティブ/非アクティブを切り替えることによって実現されています。  
+(要望があればAudioSourceに対する切り替え等にも対応いたします。)
+
+現在対応している動画プレイヤーは以下の通りです。
+- [iwaSync3](https://hoshinolabs.booth.pm/items/2666275)
+- [KineL式ビデオプレイヤー](https://kinel.booth.pm/items/2758684)
+
+あっと様のご要望に応じて作成しました。  
+[澄夏町学校 プール開放日 -School Swimming Pool in Summer-](https://vrchat.com/home/world/wrld_1051d8dc-7caf-4a1b-ba98-5e6a60f489ca)にてご利用いただいています。(ありがとうございます！)
+
+---
+### [【無料】アナログ時計【Udon配布】](https://sayamame-beans.booth.pm/items/3321518)
+UdonGraph製のアナログ時計です。  
 秒針が動くと分針が少しずつ動くところがこだわりポイント。  
-また、秒針の音が鳴ります。  
-一応Udonを配布するのが主目的だったので、付属のprefabはサンプル用…だったのですが、マテリアルとか付けたらそれっぽくなったのでそのままご利用いただけます。  
+また、秒針の音を鳴らすことが出来ます。  
+Udonを配布するのが主目的だったので、付属のprefabはサンプル用だったのですが、マテリアル等を付けたらそれっぽくなったのでそのままご利用いただけます。  
 おまけ版を買うと卓上時計も付いてきます。  
 
-[Q's Library](https://vrchat.com/home/world/wrld_16008b3b-0802-475d-b58c-39faeb624fef)など幾つかのワールドでご利用いただいています～(ありがとうございます！)  
+[Q's Library](https://vrchat.com/home/world/wrld_16008b3b-0802-475d-b58c-39faeb624fef)など幾つかのワールドでご利用いただいています。(ありがとうございます！)
 
 ---
-### 【無料】スイッチ数種類【説明付きUdon配布】
-UdonGraph製のスイッチ！  
+### [【無料】スイッチ数種類【説明付きUdon配布】](https://sayamame-beans.booth.pm/items/3343488)
+UdonGraph製のスイッチです。  
 Interactしてオンオフを切り替えるタイプと、オブジェクトを入れ替えるタイプがあります。(それぞれ、ローカル版とグローバル版あり)  
 ただ、3Dモデルは付属していません(ただの小さなCube)  
 
-UdonGraphの中身を覗くと説明がついているので、Udonの勉強にも使えるかも…？  
+UdonGraphの中身を覗くと説明がついているので、Udonの勉強にも使えるかも…？
 
 ---
-### 【無料】テレポーター【説明付きUdon配布】
-UdonGraph製のテレポーター！  
+### [【無料】アニメーション操作盤【UdonGraph】](https://sayamame-beans.booth.pm/items/4727851)
+「[アニメーション同期システム](#無料アニメーション同期システムudongraph)」と連携して、アニメーションを操作することが出来るUdonGraph製のギミックです。  
+付属のprefabを置き、Inspectorでアニメーション同期システムのGameObjectをセットすることで使用出来ます。
+
+以下の機能を備えています。
+- 操作対象のAnimatorの切り替え(アニメーション同期システムに登録されているのみ)
+- 操作対象のレイヤーの切り替え
+- 操作対象のAnimator名、レイヤー名の表示
+- アニメーション同期システムに手動同期を指示
+- 時間の操作(再生中のstateの再生時間を操作可能)
+  - スライダー操作
+- 速度の操作
+  - スライダー操作
+  - ボタン操作(-2.0, -1.5, -1.0, -0.5, 0.0, 0.5, 1.0, 1.5, 2.0)
+
+---
+### [【無料】テレポーター【説明付きUdon配布】](https://sayamame-beans.booth.pm/items/3519012)
+UdonGraph製のテレポーターです。  
 Interactするとテレポート出来ます。  
-こちらも3Dモデルは無くて、Cubeです…(3Dモデル作れない)  
+こちらも3Dモデルは無く、Cubeです。(3Dモデルが作れない)  
 
-UdonGraphの中身を覗くと説明がついているので、Udonの勉強にも使えるかも…？  
-
----
-### 【無料】デジタル時計【Udon配布】
-UdonGraph製のデジタル時計！  
-とってもシンプルな見た目のサンプルしか付いていませんし、UdonGraphの説明も付属していないのですが、あまり複雑ではないのでUdonの勉強にも使えそうです。  
+UdonGraphの中身を覗くと説明がついているので、Udonの勉強にも使えるかも…？
 
 ---
-### 【VRChat】AFK時に自動でミュートするOSCツール
-Windows上で動作するOSCツール！  
+### [【無料】デジタル時計【Udon配布】](https://sayamame-beans.booth.pm/items/4681986)
+UdonGraph製のデジタル時計です。  
+とってもシンプルな見た目のサンプルしか付いていませんし、UdonGraphの説明も付属していないのですが、あまり複雑ではないのでUdonの勉強にも使えそうです。
+
+---
+### [【VRChat】AFK時に自動でミュートするOSCツール](https://sayamame-beans.booth.pm/items/3696828)
+Windows上で動作するOSCツールです。  
 AFKに移行した時に、パラメーターの変化を検知して、VRCのマイクをミュートします。  
 利用には、OSCが有効になっていることと、AFK検知が有効になっていること、ミュートが切り替え式の設定であることが必要です。  
 
-なお、ソースコードも公開しています。(Windows以外でもご利用いただけるかも?)  
+ソースコードを[公開](https://github.com/Sayamame-beans/VRC_AFK_AutoMuter)しています。(Windows以外でもご利用いただけるかも?)
 
 ---
-### VRCPhysBone-Relocator【無料 / Free】
-Unityのエディタ拡張！  
+### [VRCPhysBone-Relocator【無料 / Free】](https://sayamame-beans.booth.pm/items/3872837)
+PBコンポーネント類の配置を移動させるためのUnityのエディタ拡張です。  
 PhysBoneの"Root Transform"設定を確認して、そのGameObjectの位置にPBコンポーネントを移動させることが出来ます。  
+VRM Converter for VRChatでVRoidから変換したアバターなどでよく見られる、「1つのGameObjectに大量のPBコンポーネントが含まれていて、どのコンポーネントがどのボーンと対応するか分からない」ような場合などで役立ちます！
 
-VRM Converter for VRChatでVRoidから変換したアバターなどでよく見られる、「1つのGameObjectに大量のPBコンポーネントが含まれていて、どのコンポーネントがどのボーンと対応するか分からない」ような場合などで役立ちます！  
-
-こちらもソースコードを公開しています。  
-
----
-### [キセテネ for MA【無料】](https://sayamame-beans.booth.pm/items/5057270)
-
-情報更新WIP
+ソースコードを[公開](https://github.com/Sayamame-beans/VRCPhysBone-Relocator)しています。  
+最近更新が滞っていますが、近いうちに更新して自分のVPMリポジトリに追加したいと思っています。
 
 ---
 
