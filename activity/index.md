@@ -18,61 +18,51 @@ KineL式ビデオプレイヤーの製作者である[りら](https://misskey.ni
 ## GitHub
 <details><summary>GitHub上での活動/リポジトリ</summary>
 
----
 ### [KiseteNe for MA](https://github.com/Sayamame-beans/KiseteNe-for-MA)
----
 着せ替え支援ツール「キセテネ」をprefab状態の衣装にも利用可能なように改変したものです。  
 Modular Avatar等との併用が前提。[Booth](#キセテネ-for-ma無料)と[VPM](https://sayabeans.github.io/vpm/)で配布中。
 
 ---
 ### [Avatar Optimizer](https://github.com/anatawa12/AvatarOptimizer)
----
 VRChat向けの非破壊式アバター最適化ツールです。  
 anatawa12さんのリポジトリで、私はCollaboratorです。  
 主にドキュメントの調整、Localizationの調整、PRのレビューを行っています。
 
 ---
 ### [VRCPhysBone-Relocator](https://github.com/Sayamame-beans/VRCPhysBone-Relocator)
----
 PhysBoneの"Root Transform"設定を確認して、そのGameObjectの位置にPBコンポーネントを移動させるUnityエディタ拡張です。  
 他の移動操作も可能にする更新を予定していますが、まだ手を付けられていません。  
 [Booth](#vrcphysbone-relocator無料--free)にも公開しています。
 
 ---
 ### [VRC_AFK_AutoMuter](https://github.com/Sayamame-beans/VRC_AFK_AutoMuter)
----
 OSCを使用して、VRChatでAFKしている時に自動的にミュートするPython製のソフトです。  
 OSCQueryには非対応です。(実行時にポートを変更することは出来ます)  
 [Booth](#vrchatafk時に自動でミュートするoscツール)にも公開しています。
 
 ---
 ### [QuoteBot](https://github.com/kobi32768/quotebot)
----
 Discordのメッセージリンクが貼られた際に、その内容を送信するKotlin製のDiscord Botです。  
 kobi32768さんのリポジトリで、私はCollaboratorです。
 
 ---
 ### [VRCLogDataCollector](https://github.com/Sayamame-beans/VRCLogDataCollector)
----
 とあるCannyの調査のために作った、VRChatのログファイルからインスタンスjoinに掛かっている時間を抽出するPython製のソフトです。  
 非常に雑な作りで、並列処理もしていないので動作は遅いのですが、目的は達成出来ています。
 
 ---
 ### [Discord to Misskey](https://github.com/Sayamame-beans/Discord-to-Misskey)
----
 Discordに流れてきたメッセージをMisskeyに転送するためのPython製のDiscord Bot等です。  
 WIPで、Misskeyへの送信処理は出来ていて、Discord Bot部分が未完成だったはず?
 
 ---
 ### VRCInfo-DB(仮名)
----
 VRChat関連のバグ情報や対処法等を集めるDB/Webサイト。  
 準備中なのでリポジトリは非公開。  
 anatawa12さんと共同開発予定?
 
 ---
 ### その他
----
 - [Modular Avatar](https://github.com/bdunderscore/modular-avatar)  
 issue情報を整理して[提供](https://misskey.niri.la/notes/9nh58d2xgt)。  
 ドキュメント調整のPRを用意中です。(もう少し時間が掛かりそう)
@@ -97,7 +87,6 @@ Misskeyの絵文字登録と承認を簡略化するためのGo製のDiscord Bot
 
 ---
 ### 【無料】アニメーション同期システム【UdonGraph】
----
 UdonGraph製、アニメーションを自動で同期するギミック！  
 付属のprefabをHierarchyに置いて、同期したいAnimatorをセットするだけでOK！  
 フレンドが、SDK2の時は公式のComponentで簡単に同期出来たのに、SDK3だと出来ない……と言っていたので、作っちゃいました！  
@@ -117,7 +106,6 @@ UdonGraph製、アニメーションを自動で同期するギミック！
 
 ---
 ### 【無料】アナログ時計【Udon配布】
----
 UdonGraph製の時計！  
 秒針が動くと分針が少しずつ動くところがこだわりポイント。  
 また、秒針の音が鳴ります。  
@@ -128,7 +116,6 @@ UdonGraph製の時計！
 
 ---
 ### 【無料】スイッチ数種類【説明付きUdon配布】
----
 UdonGraph製のスイッチ！  
 Interactしてオンオフを切り替えるタイプと、オブジェクトを入れ替えるタイプがあります。(それぞれ、ローカル版とグローバル版あり)  
 ただ、3Dモデルは付属していません(ただの小さなCube)  
@@ -137,7 +124,6 @@ UdonGraphの中身を覗くと説明がついているので、Udonの勉強に�
 
 ---
 ### 【無料】テレポーター【説明付きUdon配布】
----
 UdonGraph製のテレポーター！  
 Interactするとテレポート出来ます。  
 こちらも3Dモデルは無くて、Cubeです…(3Dモデル作れない)  
@@ -146,13 +132,11 @@ UdonGraphの中身を覗くと説明がついているので、Udonの勉強に�
 
 ---
 ### 【無料】デジタル時計【Udon配布】
----
 UdonGraph製のデジタル時計！  
 とってもシンプルな見た目のサンプルしか付いていませんし、UdonGraphの説明も付属していないのですが、あまり複雑ではないのでUdonの勉強にも使えそうです。  
 
 ---
 ### 【VRChat】AFK時に自動でミュートするOSCツール
----
 Windows上で動作するOSCツール！  
 AFKに移行した時に、パラメーターの変化を検知して、VRCのマイクをミュートします。  
 利用には、OSCが有効になっていることと、AFK検知が有効になっていること、ミュートが切り替え式の設定であることが必要です。  
@@ -161,7 +145,6 @@ AFKに移行した時に、パラメーターの変化を検知して、VRCの�
 
 ---
 ### VRCPhysBone-Relocator【無料 / Free】
---- 
 Unityのエディタ拡張！  
 PhysBoneの"Root Transform"設定を確認して、そのGameObjectの位置にPBコンポーネントを移動させることが出来ます。  
 
@@ -171,7 +154,6 @@ VRM Converter for VRChatでVRoidから変換したアバターなどでよく見
 
 ---
 ### [キセテネ for MA【無料】](https://sayamame-beans.booth.pm/items/5057270)
----
 
 情報更新WIP
 
@@ -182,7 +164,6 @@ VRM Converter for VRChatでVRoidから変換したアバターなどでよく見
 ## 非公開の開発物
 ---
 ### Server Controller
----
 Minecraftサーバーの起動管理、ホワイトリスト登録等を行うためのPython製のDiscord Botです。  
 コマンドを叩くとwolやTCP通信を使用して別PCのMinecraftサーバーを(電源ごと)起動したりします。  
 雑に作っちゃったのでソースが公開出来る状態じゃありません。  
