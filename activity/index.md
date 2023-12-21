@@ -3,6 +3,34 @@
 ---
 
 # 活動内容について
+## VRChat
+[Booth](https://sayamame-beans.booth.pm/)や[GitHub](https://github.com/Sayamame-beans)、[VPMリポジトリ](https://sayabeans.github.io/vpm/)でUdonギミックやエディタ拡張等を配布しています。(基本的に無料)  
+また、VRChatのリリース情報等の非公式翻訳を行ったり、VRChat本体やSDK等に関するCanny(バグ報告/機能要望)の作成やVCC関連issueの作成、VRCユーザーのサポート対応等をしています。  
+VRChat本体を[コミュニティ主導で翻訳](https://docs.vrchat.com/docs/suggesting-localization-changes)するためのサーバーで活動を行っていた時期もありました。(最近は忙しくて眺めるだけになっています)
+
+MainMenu 2.0 OpenBetaの時期には、(Cannyの検索性が悪いため)[gistにCannyを全て列挙](https://gist.github.com/Sayamame-beans/df362b6f9e526920a046f78aca2463d6)し、重複を纏め、日本語で概要を記載したりしていました。
+
+非公式翻訳を発信する際にTwitterやMisskeyで使用している主なハッシュタグは以下の通りです。
+- #VRChat更新速報  
+VRChat(Live)のリリースアナウンスの非公式翻訳が主な対象となるタグです。
+- #VRChatベータ情報  
+VRChat(OpenBeta)のリリースアナウンスの非公式翻訳が主な対象となるタグです。
+- #VRChat関連翻訳  
+Developer UpdateやVRChatのブログ投稿等の非公式翻訳が主な対象となるタグです。
+- #VRChat_Canny情報  
+作成したCannyや重要度が高そうなCanny等を共有する際に使用しているタグです。
+- #VRChatCreatorCompanion更新  
+VCCの更新情報の非公式翻訳が主な対象となるタグです。
+
+参加しているサポートコミュニティは以下の通りです。
+- VRCβフォース
+- VRCUnity勉強会
+- 開発補助(プライベートサーバー)
+
+## Misskey
+KineL式ビデオプレイヤーの製作者である[りら](https://misskey.niri.la/@ni_rilana)さんが運営している、主にVRChatter向けなサーバー「[にりらみすきー部](https://misskey.niri.la/)」にて、副管理人とモデレーターを担当しています。  
+もちろん、VRChat以外の話題も歓迎されています！
+
 ## Qiita
 UdonGraphの入門記事などを掲載しています！  
 現在は[UdonGraphの基礎に関連するもの](https://qiita.com/Sayamame/items/c36a1a87d4189d51099c)、[Udon自体についてのもの](https://qiita.com/Sayamame/items/69ba9e25390f8068d5a6)、[プレイヤー関連のUdonGraphノードの抜粋・説明](https://qiita.com/Sayamame/items/10ea6dc48ebb6d3e8655)の記事があります。  
@@ -10,10 +38,6 @@ UdonGraphの入門記事などを掲載しています！
 
 ## Zenn
 [Udon関連の私的メモ](https://zenn.dev/sayamame/scraps/90f95397828250)を掲載しています。あまり活動していません。  
-
-## Misskey
-KineL式ビデオプレイヤーの製作者である[りら](https://misskey.niri.la/@ni_rilana)さんが運営している、主にVRChatter向けなサーバー「[にりらみすきー部](https://misskey.niri.la/)」にて、副管理人とモデレーターを担当しています。  
-もちろん、VRChat以外の話題も歓迎されています！
 
 ## GitHub
 <details><summary>GitHub上での活動/リポジトリ</summary>
