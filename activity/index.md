@@ -44,6 +44,7 @@ UdonGraphの入門記事などを掲載しています！
 
 ### [KiseteNe for MA](https://github.com/Sayamame-beans/KiseteNe-for-MA)
 着せ替え支援ツール「キセテネ」をprefab状態の衣装にも利用可能なように改変したものです。  
+独自機能としてUndo/Redoへの対応と調整値の保存/読み込み機能があります。  
 Modular Avatar等との併用が前提。[Booth](https://sayamame-beans.booth.pm/items/5057270)と[VPM](https://sayabeans.github.io/vpm/)で配布中。
 
 ---
@@ -109,7 +110,8 @@ Misskeyの絵文字登録と承認を簡略化するためのGo製のDiscord Bot
 ### [キセテネ for MA【無料】](https://sayamame-beans.booth.pm/items/5057270)
 Prefabの衣装も調整出来るよう[キセテネ](https://shivi.booth.pm/items/2332420)を改変したものです。  
 (キセテネはMIT Licenseの下で改変/再配布が認められています)  
-※Modular Avatar等と併用する前提で、着せる機能はありません
+※Modular Avatar等と併用する前提で、着せる機能はありません。  
+独自機能としてUndo/Redoへの対応と調整値の保存/読み込み機能があります。  
 
 VPMに対応しており、VCCに追加可能です。  
 付属のunitypackageは[VPAI](https://github.com/anatawa12/VPMPackageAutoInstaller)を利用して作成したものです。
