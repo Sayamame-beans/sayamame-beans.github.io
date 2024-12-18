@@ -1,7 +1,3 @@
-[Top](../)
-
----
-
 # 活動内容について
 ## VRChat
 [Booth](https://sayamame-beans.booth.pm/)や[GitHub](https://github.com/Sayamame-beans)、[VPMリポジトリ](https://sayabeans.github.io/vpm/)でUdonギミックやエディタ拡張等を配布しています。(基本的に無料)  

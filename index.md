@@ -1,5 +1,4 @@
-# Sayamame-beans.github.io へようこそ！
-
+# ようこそ！
 ## コンテンツ
 - [プロフィール](./profile)
 - [活動内容](./activity/)
