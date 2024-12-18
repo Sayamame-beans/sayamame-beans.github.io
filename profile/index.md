@@ -6,15 +6,18 @@ QiitaにUdonGraphの入門記事を書いたり、BoothでUdonギミックやエ
 
 ## アカウント等
 Twiter: [@Sayabeans_0011](https://twitter.com/Sayabeans_0011) (favが多いです)  
-Misskey: [@Sayabeans@misskey.niri.la](https://misskey.niri.la/@Sayabeans)  
+Misskey(メイン): [@Sayabeans@misskey.niri.la](https://misskey.niri.la/@Sayabeans)  
 Misskey(予備): [@Sayabeans_sub@mi.yude.moe](https://mi.yude.moe/@Sayabeans_sub)  
 Misskey(予備2): [@Sayabeans@virtualkemomimi.net](https://virtualkemomimi.net/@Sayabeans)  
+Misskey(予備3/Resonite): [@Sayabeans@misskey.resonite.love](https://misskey.resonite.love/@Sayabeans)  
+Misskey(予備4): [@Sayabeans@buicha.social](https://buicha.social/@Sayabeans)  
 Misskey(dev): [@Sayabeans@mi.7mi.site](https://mi.7mi.site/@Sayabeans)  
 GitHub: [https://github.com/Sayamame-beans](https://github.com/Sayamame-beans)  
 Booth: [https://sayamame-beans.booth.pm/](https://sayamame-beans.booth.pm/)  
 Qiita: [https://qiita.com/Sayamame](https://qiita.com/Sayamame)  
 Zenn: [https://zenn.dev/sayamame](https://zenn.dev/sayamame)  
 VRChat: [Sayamame](https://vrchat.com/home/user/usr_3010580f-c382-4391-b705-641c5c6c1416) (未知の方のフレンド申請は許可しません)  
+Resonite: Sayamame (未知の方のフレンド申請は許可しない可能性があります)  
 
 ## 個人情報について
 個人情報の殆どは公開していません。  
