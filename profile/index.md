@@ -7,7 +7,7 @@ QiitaにUdonGraphの入門記事を書いたり、BoothでUdonギミックやエ
 ## アカウント等
 X/Twitter: [@Sayabeans_0011](https://twitter.com/Sayabeans_0011) (favが多いです)  
 Misskey(メイン): [@Sayabeans@misskey.niri.la](https://misskey.niri.la/@Sayabeans)  
-~~Misskey(予備): [@Sayabeans_sub@mi.yude.moe](https://mi.yude.moe/@Sayabeans_sub)~~ (サーバー閉鎖済み)  
+<s>Misskey(予備): [@Sayabeans_sub@mi.yude.moe](https://mi.yude.moe/@Sayabeans_sub)</s> (サーバー閉鎖済み)  
 Misskey(予備2): [@Sayabeans@virtualkemomimi.net](https://virtualkemomimi.net/@Sayabeans)  
 Misskey(予備3/Resonite): [@Sayabeans@misskey.resonite.love](https://misskey.resonite.love/@Sayabeans)  
 Misskey(予備4): [@Sayabeans@buicha.social](https://buicha.social/@Sayabeans)  
