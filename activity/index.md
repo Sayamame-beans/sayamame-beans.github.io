@@ -30,7 +30,7 @@ VCCの更新情報の非公式翻訳が主な対象となるタグです。
 KineL式ビデオプレイヤーの製作者である[りら](https://misskey.niri.la/@ni_rilana)さんが運営している、主にVRChatter向けなサーバー「[にりらみすきー部](https://misskey.niri.la/)」にて、副管理人とモデレーターを担当しています。  
 もちろん、VRChat以外の話題も歓迎されています！
 
-また、misskey-devとして本家Misskeyの開発の手伝いもしています。
+また、misskey-devとして本家Misskeyの開発にも参加しています。
 
 ## Qiita
 UdonGraphの入門記事などを掲載しています！  
@@ -46,18 +46,42 @@ UdonGraphの入門記事などを掲載しています！
 ### [KiseteNe for MA](https://github.com/Sayamame-beans/KiseteNe-for-MA)
 着せ替え支援ツール「キセテネ」をprefab状態の衣装にも利用可能なように改変したものです。  
 独自機能としてUndo/Redoへの対応と調整値の保存/読み込み機能があります。  
-Modular Avatar等との併用が前提。[Booth](https://sayamame-beans.booth.pm/items/5057270)と[VPM](https://sayabeans.github.io/vpm/)で配布中。
+"着せる"機能を無くし、着せ替え時の衣装の調整に特化させているため、Modular Avatar等との併用が前提です。  
+[Booth](https://sayamame-beans.booth.pm/items/5057270)と[VPM](https://sayabeans.github.io/vpm/)で配布中。
+
+---
+### [ALCOM/vrc-get](https://github.com/vrc-get/vrc-get)
+[ALCOM(アルコム)](https://vrc-get.anatawa12.com/ja/alcom/)はVRChat Creator Companion(VCC)のオープンソースな非公式代替ツールです。  
+主にSNSでのサポート対応や日本語対応、原文(英語)の調整、一部機能の実装を行っています。
 
 ---
 ### [Avatar Optimizer](https://github.com/anatawa12/AvatarOptimizer)
 VRChat向けの非破壊式アバター最適化ツールです。  
 anatawa12さんのリポジトリで、私はCollaboratorです。  
-主にドキュメントの調整、Localizationの調整、PRのレビューを行っています。
+主にドキュメントの調整や日本語対応、PRのレビューを行っています。
+
+---
+### [Misskey](https://github.com/misskey-dev/misskey)
+misskey-devとして本家Misskeyの開発に参加し、issue整理や一部の機能改善のPRなどを行っています。
+
+---
+### [misskey.niri.la](https://github.com/niri-la/misskey.niri.la)  
+Misskeyサーバー「にりらみすきー部」のソースコードのリポジトリ。  
+本家Misskeyとは少し異なる部分があります。  
+主にanatawa12さんがPRを担当していて、私はレビューやissue整理、一部の機能改善のPRなどを行っています。
+
+---
+### [Upload without pre-check](https://github.com/Sayamame-beans/Upload-without-preCheck)
+VRCSDKのビルド前チェックをスキップしてアバターをアップロードするためのメニュー項目を追加するツールです。  
+AAO等の非破壊改変ツールによってのHard Limitを下回るにも関わらず、ビルド前チェックでHard Limitに引っ掛かってしまいアップロードが行えない問題を解決します。  
+(※VRCSDKにはビルド後チェック(アップロード直前のチェック)の仕組みもあるため、制限を超過している場合にはアップロードに失敗します)
+
+VRCSDKの更新により、現在はHard Limitを超過していてもビルドを開始出来るようになっているため、本ツールは使う必要がなくなりました。
 
 ---
 ### [VRCPhysBone-Relocator](https://github.com/Sayamame-beans/VRCPhysBone-Relocator)
 PhysBoneの"Root Transform"設定を確認して、そのGameObjectの位置にPBコンポーネントを移動させるUnityエディタ拡張です。  
-他の移動操作も可能にする更新を予定していますが、まだ手を付けられていません。  
+他の移動操作も可能にする更新を検討していますが、全く手を付けられていません…  
 [Booth](https://sayamame-beans.booth.pm/items/3872837)にも公開しています。
 
 ---
@@ -74,33 +98,28 @@ kobi32768さんのリポジトリで、私はCollaboratorです。
 ---
 ### [VRCLogDataCollector](https://github.com/Sayamame-beans/VRCLogDataCollector)
 とあるCannyの調査のために作った、VRChatのログファイルからインスタンスjoinに掛かっている時間を抽出するPython製のソフトです。  
-非常に雑な作りで、並列処理もしていないので動作は遅いのですが、目的は達成出来ています。
+非常に雑な作りで、並列処理もしていないので動作は遅いのですが、目的は達成出来ています。  
+あれからしばらく経ち、VRChatのログ出力内容に変更があったはずなので、正常に動作しなくなっている可能性があります。
 
 ---
 ### [Discord to Misskey](https://github.com/Sayamame-beans/Discord-to-Misskey)
-Discordに流れてきたメッセージをMisskeyに転送するためのPython製のDiscord Bot等です。  
-WIPで、Misskeyへの送信処理は出来ていて、Discord Bot部分が未完成だったはず?
+Discordに流れてきたメッセージをMisskeyに転送するためのPython製のDiscord Bot/Misskey Botです。  
+WIPで、Misskeyへの送信処理は出来ていて、Discord Bot部分が未完成だったはず…まだ手を付けられていません。
 
 ---
-### VRCInfo-DB(仮名)
-VRChat関連のバグ情報や対処法等を集めるDB/Webサイト。  
-準備中なのでリポジトリは非公開。  
-anatawa12さんと共同開発予定?
+### [mi-reminder](https://github.com/niri-la/mi-reminder)
+ユーザーがメンションして呼び出すことで利用出来る、リマインド用のRust製Misskey Botです。  
+WIPで、DB周りなどの準備が出来ていなかったはず…まだ手を付けられていません。
 
 ---
 ### その他
 - [Modular Avatar](https://github.com/bdunderscore/modular-avatar)  
-issue情報を整理して[提供](https://misskey.niri.la/notes/9nh58d2xgt)。  
-ドキュメント調整のPRを用意中です。(もう少し時間が掛かりそう)
+bd_さんのリポジトリです。  
+issueを整理したり、細かな機能改善のPRを行ったりしています。
 
 - [MisskeyEmojiBot](https://github.com/niwaniwa/MisskeyEmojiBot)  
 Misskeyの絵文字登録と承認を簡略化するためのGo製のDiscord Botです。  
 りらさんのリポジトリですが、本人が最近リソース不足になっているので、そのうち自分で書いたissueを消化しようと思っています。
-
-- [misskey.niri.la](https://github.com/niri-la/misskey.niri.la)  
-にりらみすきー部のソースコードのリポジトリ。  
-[本家Misskey](https://github.com/misskey-dev/misskey)と異なる部分が少しあります。  
-主にanatawa12さんがPRを担当していて、私はレビューとissue整理等をやっています。
 
 ---
 </details>
