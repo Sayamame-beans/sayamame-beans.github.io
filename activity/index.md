@@ -156,7 +156,7 @@ UdonGraph製のアニメーションを自動で同期するギミックです�
 - Full版  
 各Animatorの全レイヤーについて、パラメーター、再生中のステート、時間が同期可能(各ステートにMultiplier Parameterを設定することで、速度も同期可能)  
 
-こちら、[黄金楽園](https://vrchat.com/home/world/wrld_2ebe7a5f-a0b0-4459-9452-1583480d9b43)や[ぽこピーランド](https://vrchat.com/home/world/wrld_6f55a286-b851-4d3e-8933-e7a31138edd7)(?!)などでご利用いただいているようです。(ありがとうございます！)
+こちら、[黄金楽園](https://vrchat.com/home/world/wrld_2ebe7a5f-a0b0-4459-9452-1583480d9b43)や[ぽこピーランド](https://vrchat.com/home/world/wrld_6f55a286-b851-4d3e-8933-e7a31138edd7)などでご利用いただいているようです。(ありがとうございます！)
 
 ---
 ### [【無料】動画プレイヤー連携 BGM自動停止ギミック【UdonSharp】](https://sayamame-beans.booth.pm/items/5037614)
@@ -167,8 +167,9 @@ UdonGraph製のアニメーションを自動で同期するギミックです�
 現在対応している動画プレイヤーは以下の通りです。
 - [iwaSync3](https://hoshinolabs.booth.pm/items/2666275)
 - [KineL式ビデオプレイヤー](https://kinel.booth.pm/items/2758684)
+- [YamaPlayer](https://yamadev.booth.pm/items/4768863) v1/v2
 
-あっと様のご要望に応じて作成しました。  
+あっと様のご要望に応じて製作しました。  
 [澄夏町学校 プール開放日 -School Swimming Pool in Summer-](https://vrchat.com/home/world/wrld_1051d8dc-7caf-4a1b-ba98-5e6a60f489ca)にてご利用いただいています。(ありがとうございます！)
 
 ---
@@ -187,7 +188,7 @@ UdonGraph製のスイッチです。
 Interactしてオンオフを切り替えるタイプと、オブジェクトを入れ替えるタイプがあります。(それぞれ、ローカル版とグローバル版あり)  
 ただ、3Dモデルは付属していません(ただの小さなCube)  
 
-UdonGraphの中身を覗くと説明がついているので、Udonの勉強にも使えるかも…？
+UdonGraphの中身を覗くと説明がついているので、Udonの勉強にも使えるかも。
 
 ---
 ### [【無料】アニメーション操作盤【UdonGraph】](https://sayamame-beans.booth.pm/items/4727851)
@@ -211,12 +212,12 @@ UdonGraph製のテレポーターです。
 Interactするとテレポート出来ます。  
 こちらも3Dモデルは無く、Cubeです。(3Dモデルが作れない)  
 
-UdonGraphの中身を覗くと説明がついているので、Udonの勉強にも使えるかも…？
+UdonGraphの中身を覗くと説明がついているので、Udonの勉強にも使えるかも。
 
 ---
 ### [【無料】デジタル時計【Udon配布】](https://sayamame-beans.booth.pm/items/4681986)
 UdonGraph製のデジタル時計です。  
-とってもシンプルな見た目のサンプルしか付いていませんし、UdonGraphの説明も付属していないのですが、あまり複雑ではないのでUdonの勉強にも使えそうです。
+とってもシンプルな見た目のサンプルしか付いていませんし、UdonGraphの説明も付属していないのですが、あまり複雑ではないのでUdonの勉強には使えそうです。
 
 ---
 ### [【VRChat】AFK時に自動でミュートするOSCツール](https://sayamame-beans.booth.pm/items/3696828)
@@ -233,7 +234,7 @@ PhysBoneの"Root Transform"設定を確認して、そのGameObjectの位置にP
 VRM Converter for VRChatでVRoidから変換したアバターなどでよく見られる、「1つのGameObjectに大量のPBコンポーネントが含まれていて、どのコンポーネントがどのボーンと対応するか分からない」ような場合などで役立ちます！
 
 ソースコードを[公開](https://github.com/Sayamame-beans/VRCPhysBone-Relocator)しています。  
-最近更新が滞っていますが、近いうちに更新して自分のVPMリポジトリに追加したいと思っています。
+しばらく更新が滞っていますが、いずれ更新した上で自分のVPMリポジトリに追加したいと思っています。
 
 ---
 
@@ -245,3 +246,29 @@ Minecraftサーバーの起動管理、ホワイトリスト登録等を行う�
 コマンドを叩くとWoLやTCP通信を使用して別PCのMinecraftサーバーを(電源ごと)起動したりします。  
 雑に作っちゃったのでソースが公開出来る状態じゃありません。  
 公開していないのを良いことに、WoLで他のPCも起動出来るおまけ機能を付けています。(管理者限定)
+
+### AreaBGMSwitcher
+予め設定した空間に応じてBGMを滑らかに切り替えるためのUdonGraph製ギミックです。  
+説明書などの準備が出来ていないため配布を開始出来ていません。
+
+こいくち様のご要望に応じて製作しました。
+[誰もいないセカイ～Empty_SEKAI](https://vrchat.com/home/world/wrld_1137ab2b-ed4d-4ae4-8610-03ec32dd4829)にてご利用いただいています。(ありがとうございます！)  
+当該ワールドはその他ギミックの調整・製作でもご協力しております。
+
+### AreaBGMVolumeAdjuster
+予め設定した空間に応じて、特定のBGMの音量を滑らかに調整するためのUdonGraph製ギミックです。  
+説明書などの準備が出来ていないため配布を開始出来ていません。
+
+あっと様のご要望に応じて製作しました。  
+[超懐郷の秋澄む夜 -Nostalgic Autumn Night 2024-](https://vrchat.com/home/world/wrld_a347c49d-e9d7-49d6-bccc-fce77b8aee03)にてご利用いただいています。(ありがとうございます！)
+
+### ギミック製作等でご協力したワールド、アセット等
+- [誰もいないセカイ～Empty_SEKAI](https://vrchat.com/home/world/wrld_1137ab2b-ed4d-4ae4-8610-03ec32dd4829)
+  - 一部ギミックの製作、調整にてご協力させていただきました。
+- [PRESENT DAY](https://vrchat.com/home/world/wrld_82bcab7f-8ae2-4f9d-a74d-d71f4ec02f08)
+  - 謎解きワールドです。一部ギミックの製作にてご協力させていただきました。
+- [VRミュージカルwish ～Generalprobe～](https://sites.google.com/view/vrwishgeneralprobe)
+  - VRChat公演の開催に際し、Clusterからのギミック移植時にご協力させていただきました。
+  - https://note.com/matoia/n/nea1e1553d8a7
+- [【quest対応】Mute-Detect Headset【Modular Avatar対応】](https://shibatenn.booth.pm/items/4713869)
+  - ギミック製作にてご協力させていただきました。
