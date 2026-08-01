@@ -32,6 +32,15 @@ KineL式ビデオプレイヤーの製作者である[りら](https://misskey.ni
 
 また、misskey-devとして本家Misskeyの開発にも参加しています。
 
+Misskey本体を除くと、Misskeyプラグインの製作を行っています。  
+- nyaizeを無効化/有効化するプラグイン
+- 行頭の>で空白無しの場合に引用表示になるのを阻止するプラグイン
+- 特定のノートのリノートをTLで非表示にするプラグイン
+- 特定のノートをTLで非表示にするプラグイン
+- 特定ワードを含むノートの背景色を変更するためのプラグイン(カスタムCSS併用)
+
+など。詳細は私の[Misskey Pages](https://misskey.niri.la/@Sayabeans/pages)をご覧ください。
+
 ## Qiita
 UdonGraphの入門記事などを掲載しています！  
 現在は[UdonGraphの基礎に関連するもの](https://qiita.com/Sayamame/items/c36a1a87d4189d51099c)、[Udon自体についてのもの](https://qiita.com/Sayamame/items/69ba9e25390f8068d5a6)、[プレイヤー関連のUdonGraphノードの抜粋・説明](https://qiita.com/Sayamame/items/10ea6dc48ebb6d3e8655)の記事があります。  
@@ -251,9 +260,8 @@ Minecraftサーバーの起動管理、ホワイトリスト登録等を行う�
 予め設定した空間に応じてBGMを滑らかに切り替えるためのUdonGraph製ギミックです。  
 説明書などの準備が出来ていないため配布を開始出来ていません。
 
-こいくち様のご要望に応じて製作しました。
+こいくち様のご要望に応じて製作しました。  
 [誰もいないセカイ～Empty_SEKAI](https://vrchat.com/home/world/wrld_1137ab2b-ed4d-4ae4-8610-03ec32dd4829)にてご利用いただいています。(ありがとうございます！)  
-当該ワールドはその他ギミックの調整・製作でもご協力しております。
 
 ### AreaBGMVolumeAdjuster
 予め設定した空間に応じて、特定のBGMの音量を滑らかに調整するためのUdonGraph製ギミックです。  
@@ -262,13 +270,13 @@ Minecraftサーバーの起動管理、ホワイトリスト登録等を行う�
 あっと様のご要望に応じて製作しました。  
 [超懐郷の秋澄む夜 -Nostalgic Autumn Night 2024-](https://vrchat.com/home/world/wrld_a347c49d-e9d7-49d6-bccc-fce77b8aee03)にてご利用いただいています。(ありがとうございます！)
 
-### ギミック製作等でご協力したワールド、アセット等
+### その他、ギミック製作等でご協力したワールド/アセット等
 - [誰もいないセカイ～Empty_SEKAI](https://vrchat.com/home/world/wrld_1137ab2b-ed4d-4ae4-8610-03ec32dd4829)
   - 一部ギミックの製作、調整にてご協力させていただきました。
 - [PRESENT DAY](https://vrchat.com/home/world/wrld_82bcab7f-8ae2-4f9d-a74d-d71f4ec02f08)
   - 謎解きワールドです。一部ギミックの製作にてご協力させていただきました。
 - [VRミュージカルwish ～Generalprobe～](https://sites.google.com/view/vrwishgeneralprobe)
   - VRChat公演の開催に際し、Clusterからのギミック移植時にご協力させていただきました。
-  - https://note.com/matoia/n/nea1e1553d8a7
+  - <https://note.com/matoia/n/nea1e1553d8a7>
 - [【quest対応】Mute-Detect Headset【Modular Avatar対応】](https://shibatenn.booth.pm/items/4713869)
   - ギミック製作にてご協力させていただきました。
